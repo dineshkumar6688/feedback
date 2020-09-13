@@ -15,12 +15,15 @@ function Home(props) {
    
    
   return (
+    <div id="main-panel" className="main-panel" >
     <Router>
+      
     <Switch>
       <Route exact path="/" component={Feed}/>
       <Route exact path="/trash" component={Trash}/>
       </Switch>
     </Router>
+    </div>
   );
 }
 

@@ -26,8 +26,8 @@ class App extends Component{
     render(){
         return(
             <div>
-                {this.state.reload?<Home data={this.state.res} ptrash={this.state.ptrash} ctrash={this.state.ctrash}/>:<div></div>}
-                {/* <Home data={this.state.res} ptrash={this.state.ptrash} ctrash={this.state.ctrash}/> */}
+                {this.state.reload?<Home data={this.state.res} ptrash={this.state.ptrash} ctrash={this.state.ctrash}/>:<div>Loading please wait..</div>}
+               
             </div>
             
         )
